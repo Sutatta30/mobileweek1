@@ -9,7 +9,7 @@ class Country {
   Country.thai(String city, String animal) : this(city, animal);
 
   void callHello() {
-    print("สวัสดีครับ");
+    print("สวัสดีค้า");
   }
 
   String callAnimal() {
