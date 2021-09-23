@@ -1,5 +1,5 @@
-
 import 'package:flutter/material.dart';
+import 'package:mobileweek1/dashboard.dart';
 import 'package:mobileweek1/login.dart';
 
 import 'index.dart';
@@ -7,6 +7,7 @@ import 'home.dart';
 import 'login.dart';
 import 'register.dart';
 import 'package:mobileweek1/config/constant.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -15,8 +16,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Index(),
       routes: {
-        'Login' : (context) =>Login(),
-        'Register' : (context) =>Register(),
+        'Login': (context) => Login(),
+        'Register': (context) => Register(),
+        'Dashboard': (context) => Dashboard(),
       },
       theme: ThemeData(
         primaryColor: pcolor,
